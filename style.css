@@ -20,6 +20,7 @@ summary{
     width:1ch;
     max-width:2in;
     min-width:0em;
+    position:sticky;
 }
 details{
     text-decoration: underline red;
@@ -27,6 +28,7 @@ details{
     margin-left: 1cm;
     margin-bottom: 1ex;
     margin-right: 1lh;
+    position:absolute;
 }
 h1{
     margin-top:1px;
@@ -37,6 +39,25 @@ h1{
     padding-bottom:1px;
     padding-left:1px;
     padding-right:1px;
+    position:fixed;
+}
+h2{
+    border-radius: 10px;
+    border-top: 2px dotted rebeccapurple;
+    border-color:orangered;
+    border-style: dotted;
+    border-bottom: 1em double rgb(24, 163, 78);
+    position:relative;
+}
+h3{
+position:static;
+
+}
+button:hover{
+    color:peru;
+}
+a:active{
+    color:red;
 }
 ol {
     background: #f50ea8;
