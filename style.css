@@ -85,8 +85,4 @@ ol {
   }
   .flexcontainer{
       display:flex;
-      flex-wrap:nowrap;
-      flex-flow:column wrap;
-      justify-content:flex-start;
-      align-items:stretch;
   }
