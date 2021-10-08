@@ -110,7 +110,7 @@ ol {
     grid-row-gap: 5px;
     grid-column-gap: 5px;
 }
-.gridcontainer>div{
+.gridcontainer > div{
     background-color: #2c0574;
     margin: 5px;
     padding: 20px;
