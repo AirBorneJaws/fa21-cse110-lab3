@@ -12,3 +12,19 @@ p{
     text-align:center;
     color: red;
 }
+summary{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:hsl(150, 69%, 7%);
+    text-align: center;
+    height:auto;
+    width:1ch;
+    max-width:2in;
+    min-width:0em;
+}
+details{
+    text-decoration: underline red;
+    margin-top: 1px;
+    margin-left: 1px;
+    margin-bottom: 1px;
+    margin-right: 1px;
+}
