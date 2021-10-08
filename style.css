@@ -61,12 +61,10 @@ h3{
 position:static;
 
 }
-button:hover{
+button:hover,a:active{
     color:peru;
 }
-a:active{
-    color:red;
-}
+
 ol {
     background: #f50ea8;
     padding: 20px;
@@ -116,6 +114,27 @@ ol {
     padding: 20px;
     font-size: 15px;
     flex-basis:auto;
+}
+a[title]
+{
+    color:salmon;
+}
+div p{
+    text-decoration: underline white;
+}
+p.p1{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-decoration-style: dotted;
+}
+h1+h2{
+    background-color:slategrey;
+}
+h3~p{
+    background-color:thistle;
+}
+label[for]{
+    color:yellowgreen;
+    position:static;
 }
 @media only screen and(max-width:650px)
 {
