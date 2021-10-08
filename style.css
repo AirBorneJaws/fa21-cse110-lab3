@@ -1,4 +1,5 @@
 /* Starting off with changing background color and text color*/
+
 body{
 background-color: #adadad;
 color: rgb(0, 0, 0)
@@ -8,6 +9,9 @@ color: rgb(0, 0, 0)
     font-family: 'Akronim';
     font-style: normal;
     font-weight: 400;
+}
+*{
+    color:purple;
 }
 /* paragraph change*/
 p{
@@ -98,4 +102,18 @@ ol {
   padding: 20px;
   font-size: 15px;
   flex-basis:auto;
+}
+.gridcointainer{
+    display:grid;
+    grid-template-columns: auto auto auto auto auto;
+    grid-template-rows: auto;
+    grid-row-gap: 5px;
+    grid-column-gap: 5px;
+}
+@media only screen and(max-width:650px)
+{
+    body{
+    background-color:rgba(138, 221, 69, 0.274);
+    color: rgb(0, 0, 0);
+    }
 }
