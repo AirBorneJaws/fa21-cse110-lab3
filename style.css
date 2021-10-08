@@ -91,3 +91,11 @@ ol {
       align-items:stretch;
       align-content:flex-start;
   }
+  .flexcontainer > div 
+{
+  background-color: #2c0574;
+  position:static;
+  margin: 5px;
+  padding: 20px;
+  font-size: 15px;
+}
