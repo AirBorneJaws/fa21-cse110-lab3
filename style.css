@@ -43,7 +43,7 @@ h1{
     padding-bottom:1px;
     padding-left:1px;
     padding-right:1px;
-    position:fixed;
+    position:static;
 }
 h2{
     border-radius: 10px;
@@ -84,4 +84,9 @@ ol {
     margin: 5px;
   }
   .flexcontainer{
+      display:flex;
+      flex-wrap:nowrap;
+      flex-flow:column wrap;
+      justify-content:flex-start;
+      align-items:stretch;
   }
