@@ -38,3 +38,23 @@ h1{
     padding-left:1px;
     padding-right:1px;
 }
+ol {
+    background: #f50ea8;
+    padding: 20px;
+  }
+  
+  ul {
+    background: #3399ff;
+    padding: 20px;
+  }
+  
+  ol li {
+    background: #4dc905;
+    padding: 5px;
+    margin-left: 35px;
+  }
+  
+  ul li {
+    background: #dfe211;
+    margin: 5px;
+  }
