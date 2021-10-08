@@ -1,6 +1,7 @@
 /* Starting off with changing background color*/
 body{
 background-color: #b0e0e6;
+color: rgb(0, 0, 0)
 }
 .discussion-goal{
 font-family: 'Times New Roman', Times, serif;
