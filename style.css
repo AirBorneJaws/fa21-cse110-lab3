@@ -3,15 +3,18 @@ body{
 background-color: #adadad;
 color: rgb(0, 0, 0)
 }
+/* ID discussion goal change*/
 #discussion-goal{
     font-family: 'Akronim';
     font-style: normal;
     font-weight: 400;
 }
+/* paragraph change*/
 p{
     text-align:center;
     color: red;
 }
+/*summary change*/
 summary{
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color:hsl(150, 69%, 7%);
@@ -22,6 +25,7 @@ summary{
     min-width:0em;
     position:sticky;
 }
+/*detail change*/
 details{
     text-decoration: underline red;
     margin-top: 1px;
@@ -78,4 +82,11 @@ ol {
   ul li {
     background: #dfe211;
     margin: 5px;
+  }
+  .flexcontainer{
+      display:flex;
+      flex-wrap:nowrap;
+      flex-flow:column wrap;
+      justify-content:flex-start;
+      align-items:stretch;
   }
