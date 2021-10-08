@@ -4,7 +4,9 @@ background-color: #adadad;
 color: rgb(0, 0, 0)
 }
 #discussion-goal{
-font-family: 'Noto Sans Jp',serif;
+    font-family: 'Akronim';
+    font-style: normal;
+    font-weight: 400;
 }
 p{
     text-align:center;
